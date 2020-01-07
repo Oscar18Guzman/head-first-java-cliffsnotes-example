@@ -28,20 +28,17 @@ If the shape class has the functionality then the sub classes get the same one
 # overriding a method
 
 you would just add the methods you wish, to the sub classes and they run those instead.
-
-Ex:
-                       SHAPE
+                    SHAPE
                     - Rotate()
                     - Sound()
                        |
-          |--------------|----------------|-----------|
-          |              |                |           |
-          |              |                |           |
-          |              |                |           |
-    Triangle          Square            Circle      Cylinder
-                                                    - stretch()
-                                                    - addColor()
-
+          |--------------|----------------|
+          |              |                |
+          |              |                |
+          |              |                |
+    Triangle          Square            Circle
+    - Resize()
+    - Color()
 
 # What's in a class
 
