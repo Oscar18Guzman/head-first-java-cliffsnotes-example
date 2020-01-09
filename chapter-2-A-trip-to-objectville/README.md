@@ -1,7 +1,7 @@
 # A trip to objectville 
 
 
-# In Chapter 1, We put all of our code in the main() method. That's not exaclty object oriented so now e've got to leave that procedural world behind and start making some objects of our own. We'll look at what makes object-oriented (OO) development in Java so much fun. We'll look at the difference between a class and an object. We'll look at how objects can improve your life. 
+## In Chapter 1, We put all of our code in the main() method. That's not exaclty object oriented so now e've got to leave that procedural world behind and start making some objects of our own. We'll look at what makes object-oriented (OO) development in Java so much fun. We'll look at the difference between a class and an object. We'll look at how objects can improve your life. 
 
 # Table of contents 
  - Inheritance 
