@@ -1,7 +1,7 @@
 # A trip to objectville 
 
 
-## In Chapter 1, We put all of our code in the main() method. That's not exaclty object oriented so now e've got to leave that procedural world behind and start making some objects of our own. We'll look at what makes object-oriented (OO) development in Java so much fun. We'll look at the difference between a class and an object. We'll look at how objects can improve your life. 
+## In Chapter 1, We put all of our code in the main() method. That's not exaclty object oriented so now we've got to leave that procedural world behind and start making some objects of our own. We'll look at what makes object-oriented (OO) development in Java so much fun. We'll look at the difference between a class and an object. We'll look at how objects can improve your life. 
 
 # Table of contents 
  - Inheritance 
@@ -22,12 +22,15 @@
           |              |                |
     Triangle          Square            Circle
 
-The `SHAPE` class is called the `SuperClass`, of the 3 `SubClasses` they all inherit the methods of the super class ( Rotate(), Sound() ). 
+The `SHAPE` class is called the `SuperClass`, of the 3 `SubClasses`; they all inherit the methods of the super class ( Rotate(), Sound() ). 
 If the shape class has the functionality then the sub classes get the same one
 
-# overriding a method
+one for the type of objects you want to use (Dog, AlarmClock, DecadesOld)
+and another class to test your new class. The Tester class is where your put the main method, and in that you create and access objects
 
-you would just add the methods you wish, to the sub classes and they run those instead.
+# Overriding a method
+
+You would just add the methods you wish, to the sub classes and they run those instead.
                     SHAPE
                     - Rotate()
                     - Sound()
@@ -40,6 +43,8 @@ you would just add the methods you wish, to the sub classes and they run those i
     - Resize()
     - Color()
 
+the square and circle classes will have the rotate and sound method on it but the triangle different methods overriding it. 
+
 # What's in a class
 
 When designing a class; look at it as a checklist and see what you need.
@@ -50,7 +55,7 @@ When you design a class, think about the `objects` that will be created from tha
 Things an object knows about itself
 - Instance Variables (They represent an object's state (The data) and have unique values for each object of that type)
 Things an object can do? 
-- Methods
+- They can run methods, They have states and behaviors. A dog has states - color, name, breed as well as behaviors – wagging the tail, barking, eating.
 
 # What's the difference between a Class and an Object?
 
@@ -65,7 +70,7 @@ You'll need 2 classes
 - one for the type of objects you want to use (Dog, AlarmClock, DecadesOld)
 - and another class to test your new class. The `Tester` class is where your put the main method, and in that you create and access objects
 
-# Step1 write your class
+# Step 1: write your class
 
 ``` java 
 class Dog {
@@ -78,7 +83,7 @@ class Dog {
 }
 ```
 
-# Step2 write a tester (TestDrive) class
+# Step 2: write a tester (TestDrive) class
 
 ``` java 
 class DogTestDrive {
@@ -89,7 +94,7 @@ class DogTestDrive {
 
 ```
 
-# Step3 In your Tester, make an object and access the object's variables and methods
+# Step 3: In your Tester, make an object and access the object's variables and methods
 ``` java 
 class DogTestDrive {
     public static void main(String[] args) {
