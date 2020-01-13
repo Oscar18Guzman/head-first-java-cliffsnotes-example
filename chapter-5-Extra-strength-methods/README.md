@@ -156,7 +156,7 @@ public class SimpleDotCom {
 }
 ```
 
-
+#### quick tips
 - Your Java program should start with a high level design
 - Typically youll write 3 things when you create a new class:
     - prepcode
@@ -175,7 +175,7 @@ public class SimpleDotCom {
 int randomNum = (int) (Math.random() * 5)
 
 ```
-(int) = This is a `cast` an dit forces the thing immediateley after it to become the typ eof the cast. The random number would have been a double but since the cast said `int` it kept it correct
+(int) = This is a `cast` and it forces the thing immediateley after it to become the type of the cast. The random number would have been a double but since the cast said `int` it kept it correct
 
 
 ### Getting user input using the GameHelper class
@@ -223,4 +223,4 @@ for (String name : nameArray) { }
 
 
 ###### what it means in plain English: 
-- "For each element in nameArray, assign the element to the `name` variable, and run the body of the loop:
+- "For each element in name Array, assign the element to the `name` variable, and run the body of the loop
