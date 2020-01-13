@@ -179,7 +179,7 @@ class GoodDogTestDrive {
 just like any other object. The only difference is how you get to them.
 
 Calling a method on Dog objects in an array
-step 1 : Decalre and create a Dog array, to hold 7 Dog references.
+step 1 : Declare and create a Dog array, to hold 7 Dog references.
 ``` java 
 Dog[] pets;
 pets = new Dog[7];
@@ -203,13 +203,13 @@ int size;
 String name;
  ```
 
- and you know that oyu can initizalize (assign a value) to the variable at the same time:
+ and you know that you can initizalize (assign a value) to the variable at the same time:
  ``` java
 int size = 420;
 String name = "Donny";
  ```
 
- But when you dont initialize an instance variable and try to call a getter method
+ But when you don't initialize an instance variable and try to call a getter method
  it returns:
  - 0 for ints
  - Null for strings
@@ -236,7 +236,7 @@ class Addthing {
 }
 ```
 
-Step 3: `Local` variables Must be initalized before use!
+Step 3: `Local` variables must be initalized before use!
 ``` java
 class Foo {
     public void go() {
