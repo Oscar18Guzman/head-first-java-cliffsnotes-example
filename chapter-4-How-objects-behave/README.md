@@ -119,7 +119,7 @@ class ElectricGuitar {
 
 ### Encapsulation
 
-We've been exposing our data though, *gasps* reachable with the dot operator as in:
+We've been exposing our data though, reachable with the dot operator as in:
 ``` java
 theCat.height = 27;
 ```
