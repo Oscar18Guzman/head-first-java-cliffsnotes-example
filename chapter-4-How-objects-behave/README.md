@@ -1,7 +1,9 @@
 # How Objects Behave
 
-state affects behavior -> behavior affects state
-we know that objects have state and behavior, represented by instance variables and methods. Now we;ll look at how state and behavior are related. 
+state affects behavior -> behavior affects state;
+
+
+we know that objects have state and behavior, represented by instance variables and methods. Now we'll look at how state and behavior are related. 
 
 ## Table of contents 
 - Methods use object state (bark different)
@@ -12,7 +14,7 @@ we know that objects have state and behavior, represented by instance variables 
 - Using references in an array
 
 ### Methods use object state 
-class - bluprint for an object
+class - blueprint for an object
 when you write a class, you're describing how the JVM should make an object of that type. You already know that every object of that type can have different `instance variables` values.
 
 You can pass values into your methods. For example, want to tell a Dog object how mnay times to bark by calling :
@@ -36,7 +38,7 @@ void bark(int numOfBarks) {
 Dog d = new Dog();
 d.bark(3)
 ```
-1 - call the bark emthod on the Dog reference, and pass in the value 3 (as the argument to the method).
+1 - call the bark method on the Dog reference, and pass in the value 3 (as the argument to the method).
 2 - The bits representing the int value 3 are delivered into the bark method.
 3 - the bits land in the numOfBarks parameter (an int-sized variable).
 4 - Use the NumOfBarks parameter as a variable in the method code.
@@ -49,7 +51,7 @@ void go() {
 
 }
 ```
-But we can declare a method to ive a specific type of value back to the caller
+But we can declare a method to a specific type of value back to the caller
 
 ``` java
  int giveSecret() {
@@ -89,7 +91,7 @@ they are formally known as Accessors and Mutators
 They let you "get and set things"
 
 - A getter's sole purpose in life is to send back, as a return value, the value of whatever it is that particular Getter is supposed to be Getting.
-- A Setter lives and breathes for the chance to take an argument vlaue and use it to set the value of an instance variable. 
+- A Setter lives and breathes for the chance to take an argument value and use it to set the value of an instance variable. 
 
 ``` java
 class ElectricGuitar {
