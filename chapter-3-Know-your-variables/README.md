@@ -58,7 +58,7 @@ float f = 32.5f (got to have the "F" because Java thinks anything with a floatin
 For any variables you will need a name and a type for it, you can name a class, method, or variable according to the following rules (the real rules are slightly more flexible but these will keep you safe)
 - It must start with a letter, underscore(_), or a dollar sign($). You cant start a name with a number. 
 - After the first character, you can use numbers as well. Just don't start it with a number.
-- It can be anthing oyu like, subject to those two rules, just so long as it isn't one of Java's reserved words.
+- It can be anything you like, subject to those two rules, just so long as it isn't one of Java's reserved words.
 
 We have already seen some reserved words when we looked at writing our first main class:
 - pubilc 
@@ -103,7 +103,7 @@ Dog myDog = new Dog();
 #### 1 Declare a reference variable
 Dog myDog = new Dog();
 
-tell the JVM to allocte space for a reference variable, and names that variable `myDog`. The reference variable is, forever, of type Dog. In other words, a remote control that has buttons to control a Dog, but not a Cat or a Button or a Socket. 
+tell the JVM to allocate space for a reference variable, and names that variable `myDog`. The reference variable is, forever, of type Dog. In other words, a remote control that has buttons to control a Dog, but not a Cat or a Button or a Socket. 
 
 
 #### 2 Create an object
@@ -146,27 +146,27 @@ The two book objects are now living on the heap.
 b = c;
 
 Assign the value of variable c to variable b. The bits inside variable c are copied, and the new copy is stuffed into variable b. Both variables hold identical values.
-Both b and c refer to the same object. Object 1 is abandoned and eligible for Garbage Collection(GC).
+Both b and c refer to the same object. Object 1 is abandoned and eligible for Garbage Collection (GC).
 
 
 c = null;
 
-Assign the value `null` to variable c. This makes c a null reference, meaning it doesnt refer to anything. But it's still a reference variable, and another Book object can still be assigned to it. 
+Assign the value `null` to variable c. This makes c a null reference, meaning it dose not refer to anything. But it's still a reference variable, and another Book object can still be assigned to it. 
 Object 2 still has an active reference (b), and as long as it does, the object is not eligible for GC.
 
 
 
 ### Arrays 
 
-#### 1 
+#### 1: 
 Declare an int array variable. An array variable is a remote control to an array object.
 int[] nums;
 
-#### 2 
+#### 2:
 Create a new int array with a length of 7, and assign it to the previously declared int[] variable nums
 nums = new int[7];
 
-#### 3
+#### 3:
 Give each element in the array an int value. Remember, elements in an int array are just int variables
 
 7 int variables
@@ -178,7 +178,7 @@ Give each element in the array an int value. Remember, elements in an int array 
 - nums[5] = 20;
 - nums[6] = 1;
 
-arrays are great when you just want quick, ordered, efficent list of things. array's give you fast random access by letting you use an index position to get to any element in the array.
+arrays are great when you just want quick, ordered list of things. array's give you fast random access by letting you use an index position to get to any element in the array.
 They are always objects, whether they're declared to hold primitives or object references. 
 in other words, The array object can have elements which are primitives, but the array itself is never a primitive.
 
@@ -230,4 +230,4 @@ class Dog {
 - A reference variable value is the bits representing a way to get to an object on the heap
 - A reference variable is like a remote control. Using the dot operator (.) on a reference variable is like pressing a button on the remote control to access a method or instance variable.
 - A reference variable has a value of null when it is not referencing any object.
-- An array is always an object, even if the array is declared to hold primitives. There is no such thing as a primitive arrau, only an arrau that holds primitives.
+- An array is always an object, even if the array is declared to hold primitives. There is no such thing as a primitive array, only an array that holds primitives.
