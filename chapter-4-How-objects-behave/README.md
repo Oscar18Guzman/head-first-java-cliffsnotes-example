@@ -134,10 +134,10 @@ public void setHeight(int ht) {
     }
 }
 ```
-You would use public and private access modifiers to hide data. you're familiar with `public`-we use it with every main method. 
+You would use public and private access modifiers to hide data. you're familiar with `public` we use it with every main method. 
 Encapsulation starter rule:
 - Mark instance variables `private`
-- Marg getters and setters `public`
+- Mark getters and setters `public`
 
 ``` java
 class GoodDog {
