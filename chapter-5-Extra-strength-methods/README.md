@@ -31,7 +31,7 @@ Developing a Class
 
 #### 3 things you'll write for a class
 - Prep code
- - The form of pseudocode, to help you focus on the logix without stressing about syntax
+ - The form of pseudocode, to help you focus on the logics without stressing about syntax
 - Test code
  - A class or methods that will test the real code and validate that it's doing the right thing
 - Real code
@@ -39,7 +39,7 @@ Developing a Class
 
 
 ### pseudocode
-`Declare` an int array to hold the locatinos cells. Call it `locationCells`
+`Declare` an int array to hold the locations cells. Call it `locationCells`
 `Declare` an int to hold the number of hits. Call it numOfHits and Set it to 0
 
 `Declare` a checkYourself() method that takes a String for the user's guess ("1", "3", etc)
