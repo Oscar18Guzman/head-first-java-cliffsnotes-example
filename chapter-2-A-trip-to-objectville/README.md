@@ -29,8 +29,6 @@ one for the type of objects you want to use (Dog, AlarmClock, DecadesOld)
 and another class to test your new class. The Tester class is where your put the main method, and in that you create and access objects
 
 # Overriding a method
-
-You would just add the methods you wish, to the sub classes and they run those instead.
                     SHAPE
                     - Rotate()
                     - Sound()
@@ -118,18 +116,18 @@ Talking shop you could say
 
 [Class, Method, Object, Instance Variable]
 
-I am compiled from a .java file                                                 `Class`          
-My instance variable values can be different from my buddys values              `Object`
-I behave like a template                                                        `Class`    
-I like to do stuff                                                              `Object, Method`
-I can have many methods                                                         `Class, Object`
-I represent `state`                                                             `Instance Variable`
-I have behaviors                                                                `Object, Class`
-I am lovated in objects                                                         `Method, Instance Variable`
-I live on the Heap                                                              `Object`
-I am used to create object instances                                            `Class`
-My state can change                                                             `Object, Instance Variable`
-I declare methods                                                               `Class`
-I can change at runtime                                                         `Object, Instance Variable`
+- I am compiled from a .java file                                                 `Class`          
+- My instance variable values can be different from my buddys values              `Object`
+- I behave like a template                                                        `Class`    
+- I like to do stuff                                                              `Object, Method`
+- I can have many methods                                                         `Class, Object`
+- I represent `state`                                                             `Instance Variable`
+- I have behaviors                                                                `Object, Class`
+- I am located in objects                                                         `Method, Instance Variable`
+- I live on the Heap                                                              `Object`
+- I am used to create object instances                                            `Class`
+- My state can change                                                             `Object, Instance Variable`
+- I declare methods                                                               `Class`
+- I can change at runtime                                                         `Object, Instance Variable`
 
 
