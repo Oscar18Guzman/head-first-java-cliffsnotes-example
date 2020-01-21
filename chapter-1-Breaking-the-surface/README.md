@@ -30,6 +30,7 @@ Put a class in a source file
 
 Put methods in a class
      - a class has one or more methods. Methods must be declared inside a class (within the curly braces of the class)
+     - a class as well can have no methods at all
 
 Put statements in a method 
      - Within the curly braces of a method, write your instructions for how that method should be performed. You can think of it as its procedure. 
@@ -38,7 +39,7 @@ Put statements in a method
 ``` java 
 public class MyFirstApp { 
     public static void main (String[] args) {
-        System.out.println("Greetings World, I come in peace")
+        System.out.println("Greetings World, I come in peace");
     }
 }
 
@@ -78,10 +79,21 @@ class IfTest {
         if (x == 3){
             System.out.println("x must be 3");
         }
-        System.out.println("This runs no matter what")
+        System.out.println("This runs no matter what");
     }
 }
 ``` 
+
+``` java 
+class Loop {
+    public statc void main(String[] args) {
+        int ten = 10;
+        for (int i in ten) {
+            System.out.println(i);
+        }
+    }
+}
+```
 
 #### code output 
 java IfTest
