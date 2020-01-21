@@ -1,7 +1,7 @@
 # A trip to objectville 
 
 
-## In Chapter 1, We put all of our code in the main() method. That's not exaclty object oriented so now we've got to leave that procedural world behind and start making some objects of our own. We'll look at what makes object-oriented (OO) development in Java so much fun. We'll look at the difference between a class and an object. We'll look at how objects can improve your life. 
+### In Chapter 1, We put all of our code in the main() method. That's not exaclty object oriented so now we've got to leave that procedural world behind and start making some objects of our own. We'll look at what makes object-oriented (OO) development in Java so much fun. We'll look at the difference between a class and an object. We'll look at how objects can improve your life. 
 
 # Table of contents 
  - Inheritance 
@@ -68,7 +68,7 @@ You'll need 2 classes
 - one for the type of objects you want to use (Dog, AlarmClock, DecadesOld)
 - and another class to test your new class. The `Tester` class is where your put the main method, and in that you create and access objects
 
-# Step 1: write your class
+## Step 1: write your class
 
 ``` java 
 class Dog {
@@ -81,7 +81,7 @@ class Dog {
 }
 ```
 
-# Step 2: write a tester (TestDrive) class
+## Step 2: write a tester (TestDrive) class
 
 ``` java 
 class DogTestDrive {
@@ -92,7 +92,7 @@ class DogTestDrive {
 
 ```
 
-# Step 3: In your Tester, make an object and access the object's variables and methods
+## Step 3: In your Tester, make an object and access the object's variables and methods
 ``` java 
 class DogTestDrive {
     public static void main(String[] args) {
