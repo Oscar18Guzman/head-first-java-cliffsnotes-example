@@ -9,8 +9,6 @@
 - code for the real game
 - boolean expressions
 - Using the library (Java API)
-- Using the packages (import statements, fully-qualified names)
-- Using the HTML API docs and reference books
 
 
 ### Anaylzing the bug 
@@ -413,3 +411,40 @@ if (brand.equals("A") || brand.equals("B") ) {
     // do stuff for only brand a or brand b
 }
 ```
+
+
+### Using the library (the java API)
+
+in the Java API, classes are grouped into packages
+
+To use a class in the API, you have to know which package the class is in 
+
+Every class in the Java library belongs to a package. The package has a name, like javax.swing (a package that holds some of the Swing GUI classes) ArrayList is in the package called java.util. which holds the utility classes
+
+
+- java.util.ArrayList
+ArrayList is not the full name.
+'java.util' - package name
+'ArrayList' - class name
+
+You hvae to tell Java which ArrayList you want to use.
+
+#### import
+put an import statement at the top of your source code file:
+``` java
+import java.util.ArrayLIst;
+public class myClass {...}
+```
+Or
+
+#### Type
+type the full name everywhere in your code. Each time you use it. Anywhere you use it. 
+
+Declare/ Instantiate
+'java.util.ArrayList<Dog> list = new java.util.ArrayList<Dog>();'
+
+Argument Type
+'public void go(java.util.ArrayList<Dog> list) {...}'
+
+Return Type
+'public java.util.ArrayList<Dog> foo() {...}'
