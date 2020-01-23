@@ -17,7 +17,7 @@ we know that objects have state and behavior, represented by instance variables 
 class - blueprint for an object
 when you write a class, you're describing how the JVM should make an object of that type. You already know that every object of that type can have different `instance variables` values.
 
-You can pass values into your methods. For example, want to tell a Dog object how mnay times to bark by calling :
+You can pass values into your methods. For example, want to tell a Dog object how many times to bark by calling :
 d.bark(3);
 
 arguments/parameters - The values passed into a method
