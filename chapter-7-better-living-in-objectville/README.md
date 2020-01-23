@@ -88,7 +88,7 @@ You get to write flexible code. much easier to develop and much easier to extend
 
 the reference type can be a superclass of the actual object type
 - when you declare a reference variable, any object that passes that IS-A test for the declared type of the reference variable can be assigned to that reference
-*Anything that extends teh declared reference variable type can be assigned to the reference variable. this lets you do things like make polymorphic arrays*
+*Anything that extends the declared reference variable type can be assigned to the reference variable. this lets you do things like make polymorphic arrays*
 ex:
 
 ``` java 
