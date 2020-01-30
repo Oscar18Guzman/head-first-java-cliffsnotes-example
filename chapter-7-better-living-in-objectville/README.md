@@ -79,7 +79,7 @@ When you define a supertype for a group of classes, any sublclass fo that supert
 - you get to take advantage of polymorphism
 
 #### which matters because?
-- because jyou get to refer to a subclass object using a reference declared as the supertype
+- because you get to refer to a subclass object using a reference declared as the supertype
 
 #### and that means to you?
 You get to write flexible code. much easier to develop and much easier to extend.
@@ -129,5 +129,57 @@ class PetOwner {
         v.giveShot(h);
     }
 }
+```
 
+### rules for overriding 
+
+1 - Arguments must be the same, and return types must be compatible.
+
+- the contract of superclass defines how other code can use a method. Whatever the superclass takes as an argument, the subclass overriding the method must use that same argument. And whatever the superclass declares as a return type, the overriding method must declare either the same type, or a sublclass type.
+
+
+2 - The method can't be less accessbile 
+- That menas the access level must be the same, or friendlier. That means you can't, for example, override public method and make it private. 
+
+
+### Overloading a method
+
+- Method overloading is nothing more than having two methods with the same name but different argument lists. no polymorphism involved with overloading methods.
+
+It lets you make multiple versions of a method, with different argument lists, for convenience to the callers.
+
+1 - The return types can be different
+- you're free to change the return types in overloaded methods, as long as the argument lists are different.
+
+2 - You can't change ONLY the return type
+- if only the return type is different, it's not a valid overload - the compiler will assume you're trying to override a method. 
+
+3 - You can vary the access levels in any direction
+- You're free to overload a method with a method that's more restrictive. It doesn't matter, since the new method isn't method isn't obligated to fulfill the contract of the overloaded method
+
+
+Examples of method overloading
+
+``` java
+public class Overloads { 
+    String uniqueID;
+
+    public int addNums (int a, int b) {
+        return a + b;
+    }
+
+    public double addNums (double a, double b){
+        return a + b;
+    }
+
+    public void setUniqueID(String theID) {
+        // lots of validation
+        uniqueID = theID;
+    }
+
+    public void setUniqueID(int ssNumber) {
+        String numString = "" + ssNumber;
+        setUniqueID(numString);
+    }
+}
 ```
